@@ -1,0 +1,26 @@
+nav {
+    background: transparent;
+    width: max-content;
+    display: block;
+    padding: 0.7 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    backdrop-filter: blur(15px)
+}
+
+nav a {
+    background: transparent;
+    padding: 0.9rem;
+    display: flex;
+    color: var(--color-dark);
+    font-size: 1.1rem;
+}
+
+nav a.active {
+    background: var(--color-bg);
+    color: var(--color-white)
+}
