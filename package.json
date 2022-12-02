@@ -1,6 +1,6 @@
 {
   "homepage": "http://luevrata.github.io/personal-website",
-  "name": "rest-deploy",
+  "name": "personal-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
