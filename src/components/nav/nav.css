@@ -1,5 +1,5 @@
 nav {
-    background: transparent;
+    background: rgba(255,255,255, 0.1);;
     width: max-content;
     display: block;
     padding: 0.7 1.7rem;
@@ -13,7 +13,7 @@ nav {
 }
 
 nav a {
-    background: transparent;
+    background: rgba(255,255,255, 0.1);;
     padding: 0.9rem;
     display: flex;
     color: var(--color-dark);

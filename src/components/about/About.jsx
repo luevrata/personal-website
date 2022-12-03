@@ -16,7 +16,9 @@ const About = () => {
                 <p>
                 Motivated 3rd year student completing Bachelor of Computer Science 
                 degree at University of British Columbia with a Software development 
-                specialization. Experienced in Full Stack Web development with React. 
+                specialization. Experienced in Full Stack Web development with React. <br/><br/>
+                A team player with conflict resolution skills who feels comfortable to 
+                communicate and negotiate solutions with various groups of people. <br/><br/>
                 Passionate about contributing into innovative, disruptive, and impactful 
                 Software.
                 </p>
