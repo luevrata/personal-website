@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.1c037eaa.css",
-    "main.js": "/personal-website/static/js/main.3776c469.js",
+    "main.js": "/personal-website/static/js/main.8d276380.js",
     "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
     "static/media/Elizaveta_Firsova_Resume.pdf": "/personal-website/static/media/Elizaveta_Firsova_Resume.51fc37de938e85256819.pdf",
     "static/media/project2.jpg": "/personal-website/static/media/project2.0f5f6f49d4a407ff339d.jpg",
@@ -9,16 +9,16 @@
     "static/media/project3.jpg": "/personal-website/static/media/project3.fac2822d46c57ff29257.jpg",
     "static/media/project1.jpg": "/personal-website/static/media/project1.bfaa814474833ff955b5.jpg",
     "static/media/project4.jpg": "/personal-website/static/media/project4.210a8ae83d0df8f6d807.jpg",
+    "static/media/Workday-Emblem.png": "/personal-website/static/media/Workday-Emblem.e37d74830ca62fc906c7.png",
     "static/media/project5.jpg": "/personal-website/static/media/project5.73ebf433d22a3f1bd210.jpg",
     "static/media/ubc.png": "/personal-website/static/media/ubc.702e190bcb144f00ad5f.png",
-    "static/media/Workday-Emblem.png": "/personal-website/static/media/Workday-Emblem.f29ac59f217feb9d49b8.png",
     "index.html": "/personal-website/index.html",
     "main.1c037eaa.css.map": "/personal-website/static/css/main.1c037eaa.css.map",
-    "main.3776c469.js.map": "/personal-website/static/js/main.3776c469.js.map",
+    "main.8d276380.js.map": "/personal-website/static/js/main.8d276380.js.map",
     "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c037eaa.css",
-    "static/js/main.3776c469.js"
+    "static/js/main.8d276380.js"
   ]
 }
