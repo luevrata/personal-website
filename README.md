@@ -74,5 +74,6 @@ installations required:
 npm install --save react-helmet
 npm install emailjs/browser --save
 npm install --save react-toastify
+/
 npm install react-icons --save
 
