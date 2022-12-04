@@ -99,7 +99,7 @@
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 
     .projects__container {
         display: grid;
