@@ -4,10 +4,12 @@ import WorkdayIcon from '../../assets/Workday-Emblem.png'
 import UBCIcon from '../../assets/ubc.png'
 
 const Experience = () => {
+
   return (
     <section id = 'experience'>
         <h2>Experience & Education</h2>
         <div className="container experience__container">
+
             <div className="experience__card">
                 <div className="experience__card_header">
                     <div>
@@ -51,7 +53,7 @@ const Experience = () => {
 
                     <ul>
                         <li>3rd year Undergraduate student majoring in Computer Science with specialization in Software development and minor in Commerce</li>
-                        <li>Cumulative GPA: 88.3%</li>
+                        <li>Cumulative GPA: 87.3%</li>
                         <li>Expected to graduate May 2025</li>
                     </ul>
 

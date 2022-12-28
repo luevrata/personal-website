@@ -19,7 +19,7 @@
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-ms: 90%;
+    --container-width-sm: 90%;
 
     --transition: all 400ms ease;
 }
@@ -111,6 +111,75 @@ img {
     width: 100%;
     object-fit: cover;
 }
+
+/*CAROUSEL*/
+
+.carousel {
+    padding: 1rem;
+}
+
+.testing {
+    background-color: rgb(255, 196, 230);
+}
+
+.slick-track {
+    display: flex !important;
+    /* gap:0.5rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;  */
+    /* background-color: #527547; */
+}
+
+.slick-slide {
+    background-color:#c5d39b;
+    /* height: 0; */
+    background-color: var(--color-dark);
+    border-radius: 0.5rem;
+    /*color: var(--color-white);
+    height: 25rem;
+    transition: var(--transition);*/
+    margin: 0px 5px; 
+    /* padding: 5px; */
+    height: inherit !important;
+    /* display: flex; */
+}
+
+.slick-slide > div {
+    /* margin: 10px 10px; */
+    /* padding:10px; */
+    /* display: flex; */
+    /* height: 20rem; */
+    
+    /* display: block; */
+    /* height: 25rem; */
+    /* background-color: #527547; */
+    height: inherit !important;
+}
+.slick-slide > div> div {
+    /* height: 20rem; */
+    /* background-color: #527547; */
+    height: inherit !important;
+}
+
+.slick-dots {
+
+    padding: 5rem;
+    /* color: var(--color-white) */
+}
+
+.slick-list {
+    /* color: var(--color-white); */
+    /* margin: 0 -10px; */
+    /* background-color: beige; */
+    /* padding: 2rem; */
+}
+
+.content {
+    /* padding: 20px; */
+    /* margin: auto; */
+    /* background-color: blue; */
+  }
 
 /* MEDIA QUERIES (MEDIUM DEVICES)*/
 
