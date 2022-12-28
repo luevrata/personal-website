@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.9f1c84c2.css",
-    "main.js": "/personal-website/static/js/main.c69ebda2.js",
+    "main.css": "/personal-website/static/css/main.40fa1429.css",
+    "main.js": "/personal-website/static/js/main.59f17d0f.js",
     "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
     "static/media/Elizaveta_Firsova_Resume.pdf": "/personal-website/static/media/Elizaveta_Firsova_Resume.7b8008306180bd13d2d5.pdf",
     "static/media/project2.jpg": "/personal-website/static/media/project2.0f5f6f49d4a407ff339d.jpg",
@@ -11,18 +11,19 @@
     "static/media/project4.jpg": "/personal-website/static/media/project4.210a8ae83d0df8f6d807.jpg",
     "static/media/Workday-Emblem.png": "/personal-website/static/media/Workday-Emblem.e37d74830ca62fc906c7.png",
     "static/media/project5.jpg": "/personal-website/static/media/project5.73ebf433d22a3f1bd210.jpg",
+    "static/media/project6.jpg": "/personal-website/static/media/project6.9fd44a01b533947df557.jpg",
     "static/media/ubc.png": "/personal-website/static/media/ubc.702e190bcb144f00ad5f.png",
     "static/media/slick.svg": "/personal-website/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/personal-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/personal-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/personal-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/personal-website/index.html",
-    "main.9f1c84c2.css.map": "/personal-website/static/css/main.9f1c84c2.css.map",
-    "main.c69ebda2.js.map": "/personal-website/static/js/main.c69ebda2.js.map",
+    "main.40fa1429.css.map": "/personal-website/static/css/main.40fa1429.css.map",
+    "main.59f17d0f.js.map": "/personal-website/static/js/main.59f17d0f.js.map",
     "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f1c84c2.css",
-    "static/js/main.c69ebda2.js"
+    "static/css/main.40fa1429.css",
+    "static/js/main.59f17d0f.js"
   ]
 }
