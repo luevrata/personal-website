@@ -199,4 +199,8 @@ img {
     section > h2{
         margin-top: 3rem;
     }
+
+    .slick-slide {
+        margin: 0;
+    }
 }

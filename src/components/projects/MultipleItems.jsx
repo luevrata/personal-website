@@ -24,6 +24,15 @@ const MultipleItems = ()=> {
               slidesToShow: 1,
               slidesToScroll: 1
             }
+        },
+
+        {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false
+            }
         }
 
       ],
