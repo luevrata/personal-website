@@ -39,7 +39,7 @@ input, textarea {
     width: 100%;
     padding: 1.5rem;
     background: rgba(255, 245, 219, 0.3);
-    /* border-radius: 0.5rem; */
+    border-radius: 0.2rem;
     border: 2px solid var(--color-primary);
     color: var(--color-primary);
     resize: none;
@@ -47,10 +47,17 @@ input, textarea {
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
-   
+    
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
-    
+    .container.contacts__container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact__option {
+        text-align: center;
+        border: 1px solid transparent
+    }
 }
