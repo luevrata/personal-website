@@ -12,7 +12,7 @@ const About = () => {
                 <img src={me} alt="About Image" className="about__me"></img>
             </div>
             <div className="about__content">
-        
+              <div>
                 <p>
                 Motivated 3rd year student completing Bachelor of Computer Science 
                 degree at University of British Columbia with a Software development 
@@ -22,6 +22,7 @@ const About = () => {
                 Passionate about contributing into innovative, disruptive, and impactful 
                 Software.
                 </p>
+              </div>
             </div>
         </div>
     </section>
