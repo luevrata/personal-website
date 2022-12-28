@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.a1d391c3.css",
-    "main.js": "/personal-website/static/js/main.e529a028.js",
+    "main.css": "/personal-website/static/css/main.9f1c84c2.css",
+    "main.js": "/personal-website/static/js/main.99aa0b3b.js",
     "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
     "static/media/Elizaveta_Firsova_Resume.pdf": "/personal-website/static/media/Elizaveta_Firsova_Resume.7b8008306180bd13d2d5.pdf",
     "static/media/project2.jpg": "/personal-website/static/media/project2.0f5f6f49d4a407ff339d.jpg",
@@ -17,12 +17,12 @@
     "static/media/slick.ttf": "/personal-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/personal-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/personal-website/index.html",
-    "main.a1d391c3.css.map": "/personal-website/static/css/main.a1d391c3.css.map",
-    "main.e529a028.js.map": "/personal-website/static/js/main.e529a028.js.map",
+    "main.9f1c84c2.css.map": "/personal-website/static/css/main.9f1c84c2.css.map",
+    "main.99aa0b3b.js.map": "/personal-website/static/js/main.99aa0b3b.js.map",
     "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1d391c3.css",
-    "static/js/main.e529a028.js"
+    "static/css/main.9f1c84c2.css",
+    "static/js/main.99aa0b3b.js"
   ]
 }
