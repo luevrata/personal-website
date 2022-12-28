@@ -59,6 +59,10 @@
     background-image: url('../../assets/project5.jpg');
 }
 
+.projects__card_content.six{  
+    background-image: url('../../assets/project6.jpg');
+}
+
 .projects__card_text{
     padding: 1rem;
     z-index: 2;

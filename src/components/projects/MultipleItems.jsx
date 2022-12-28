@@ -53,7 +53,7 @@ const MultipleItems = ()=> {
     };
     return (
       <div className="container">
-            <Slider {...settings}>
+        <Slider {...settings}>
             <div className="projects__card">
                 <div className="projects__card_content one">
                     {/* <div className="projects__card_layer"/> */}
@@ -75,12 +75,29 @@ const MultipleItems = ()=> {
                     <h4>Skills: Java, OOP, JSON, JUnit</h4>
 
                 </div>
-
-
             </div>
 
+            <div className="projects__card">
+                <div className="projects__card_content six">
+                    <div className="projects__card_text">
+                    <a className='projects__link' href='https://github.com/luevrata/personal-website' target='_blank'>GitHub Link</a>
+                        <ul>
+                            <li>Developed a WEB based Personal Website in JavaScript using VS Code </li>
+                            <li>Designed and developed UI Web forms using React, HTML, and CSS</li>
+                            <li>Deployed website using Github pages</li>
+                        </ul>
+                        
+                    </div>
+                </div>
 
-            {/* <div className="slick-slide"> */}
+                <div className="projects__card_description">
+
+                    <h3>Personal Website</h3>
+                    <h4>Skills: JavaScript, React, CSS, HTML</h4>
+
+                </div>
+            </div>
+
             <div className="projects__card">
                 <div className="projects__card_content two">
                     {/* <div className="projects__card_layer"/> */}
@@ -102,7 +119,7 @@ const MultipleItems = ()=> {
 
                 </div>
             </div>
-            {/* </div> */}
+
 
             <div className="projects__card">
                 <div className="projects__card_content three">
@@ -173,7 +190,7 @@ const MultipleItems = ()=> {
                 </div>
             </div> 
             
-            </Slider>
+        </Slider>
       </div>
     );
 }

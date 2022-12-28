@@ -30,6 +30,7 @@ const Experience = () => {
                         <li>Configured RESTful APIs and proxy endpoints</li>
                         <li>Deployed application to Linux based Node.js Web server</li>
                         <li>Actively participated in code reviews and software development using Agile/Scrum process</li>
+                        <li>Migrated usages of React Redux to React Queries</li>
                     </ul>
 
                 </div>
