@@ -84,7 +84,7 @@ const MultipleItems = ()=> {
                         <ul>
                             <li>Developed a WEB based Personal Website in JavaScript using VS Code </li>
                             <li>Designed and developed UI Web forms using React, HTML, and CSS</li>
-                            <li>Deployed website using Github pages</li>
+                            <li>Deployed website using GitHub pages</li>
                         </ul>
                         
                     </div>
@@ -97,6 +97,29 @@ const MultipleItems = ()=> {
 
                 </div>
             </div>
+
+            <div className="projects__card">
+                <div className="projects__card_content five">
+                    {/* <div className="projects__card_layer"/> */}
+                    <div className="projects__card_text">
+                    <a className='projects__link' href='https://github.com/luevrata/Voting-System' target='_blank'>GitHub Link</a>
+                        <ul>
+                            <li>Developed Voting System in C++ using Visual Studio</li>
+                            <li>This project provides voters accurate and live statistics of the percentage of the votes for each 
+                                candidate, as well as the percentage of each candidate from each province of Canada</li>
+                            <li>Makes sure that each user got one vote in</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="projects__card_description">
+
+                    <h3>Hackathon cmd-f 2022</h3>
+                    <h4>Voting System</h4>
+                    <h4>Skills: C++, OOP</h4>
+
+                </div>
+            </div> 
 
             <div className="projects__card">
                 <div className="projects__card_content two">
@@ -165,30 +188,6 @@ const MultipleItems = ()=> {
 
                 
             </div>
-
-
-             <div className="projects__card">
-                <div className="projects__card_content five">
-                    {/* <div className="projects__card_layer"/> */}
-                    <div className="projects__card_text">
-                    <a className='projects__link' href='https://github.com/luevrata/Voting-System' target='_blank'>GitHub Link</a>
-                        <ul>
-                            <li>Developed Voting System in C++ using Visual Studio</li>
-                            <li>This project provides voters accurate and live statistics of the percentage of the votes for each 
-                                candidate, as well as the percentage of each candidate from each province of Canada</li>
-                            <li>Makes sure that each user got one vote in</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="projects__card_description">
-
-                    <h3>Hackathon cmd-f 2022</h3>
-                    <h4>Voting System</h4>
-                    <h4>Skills: C++, OOP</h4>
-
-                </div>
-            </div> 
             
         </Slider>
       </div>
