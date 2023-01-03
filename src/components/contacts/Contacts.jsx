@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Contacts = () => {
 
   const notify = () => toast("Message is sent!");
-
+//
 
   const form = useRef();
 
