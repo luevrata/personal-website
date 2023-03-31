@@ -81,3 +81,5 @@ npm install react-slick --save
 
 npm install slick-carousel --save
 
+npm run deploy - expose to github pages
+

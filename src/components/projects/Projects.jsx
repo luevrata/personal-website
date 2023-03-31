@@ -1,6 +1,5 @@
 import React from 'react'
 import MultipleItems from './MultipleItems'
-import './projects.css'
 
 const Projects = () => {
   return (

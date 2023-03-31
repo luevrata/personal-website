@@ -10,6 +10,7 @@ import {Helmet} from "react-helmet";
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import Activities from "./components/activities/Activities";
 
 const App =() => {
 
@@ -27,6 +28,7 @@ const App =() => {
         <About/>
         <Experience/>
         <Projects/>
+        <Activities/>
         <Contacts/>
         <Footer/>
     </div>

@@ -1,0 +1,21 @@
+.carousel_card_text {
+  padding: 1rem;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.8);
+  color: var(--color-dark);
+  opacity: 0;
+  transition: var(--transition);
+  border-radius: 0.5rem 0.5rem 0 0;
+  height: 100%;
+}
+
+.carousel_card_description {
+  padding: 1rem;
+  color: var(--color-white);
+}
+.card_content {
+  background-size: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+  transition: var(--transition);
+  background-repeat: no-repeat;
+}
