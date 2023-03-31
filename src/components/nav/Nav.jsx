@@ -14,7 +14,7 @@ const Nav = () => {
     "#about",
     "#experience",
     "#projects",
-    // "#activities",
+    "#activities",
     "#contacts",
   ];
   const icons = [
@@ -22,7 +22,7 @@ const Nav = () => {
     <HiUserCircle />,
     <MdHomeRepairService />,
     <FaBook />,
-    // <GiHeartInside />,
+    <GiHeartInside />,
     <RiMessage2Fill />,
   ];
   return (
@@ -33,7 +33,6 @@ const Nav = () => {
           onClick={() => setActiveNav(reference)}
           className={activeNav === reference ? "active" : ""}
         >
-          {" "}
           {icons[index]}
         </a>
       ))}

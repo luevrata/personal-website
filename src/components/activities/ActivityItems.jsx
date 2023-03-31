@@ -8,6 +8,14 @@ import snakeGame from "../../assets/snakeGame.png";
 import collegeManagementImg from "../../assets/collegeManagement.png";
 import pumpkinSeedsImg from "../../assets/pumpkinSeeds.png";
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+import HikeGallery from "../galleries/HikesGallery";
+
 const ActivityItems = () => {
   const settings = {
     dots: true,
@@ -162,6 +170,11 @@ const ActivityItems = () => {
   ];
   return (
     <div className="container">
+      <Router>
+        <Switch>
+          <Route path="/about" component={HikeGallery} />
+        </Switch>
+      </Router>
       <Slider {...settings}>
         {carouselContentElems.map((contentElem, index) => (
           <div>
