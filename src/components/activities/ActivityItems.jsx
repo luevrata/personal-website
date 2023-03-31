@@ -7,14 +7,7 @@ import votingSystemImg from "../../assets/votingSystem.png";
 import snakeGame from "../../assets/snakeGame.png";
 import collegeManagementImg from "../../assets/collegeManagement.png";
 import pumpkinSeedsImg from "../../assets/pumpkinSeeds.png";
-
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from "react-router-dom";
-import HikeGallery from "../galleries/HikesGallery";
+import { Link } from "react-router-dom";
 
 const ActivityItems = () => {
   const settings = {
@@ -150,31 +143,18 @@ const ActivityItems = () => {
     </ul>,
   ];
 
-  const projectNames = [
-    <h3>Task Scheduler</h3>,
-    <h3>Personal Website</h3>,
-    <h3>Hackathon cmd-f 2022</h3>,
-    <h3>Snake Game</h3>,
+  const hobbyNames = [
+    <h3>Hiking</h3>,
+    <h3>Photoshop</h3>,
+    <h3>Dancing</h3>,
+    <h3>Drawing</h3>,
     <h3>College Attendance Management System</h3>,
     <h3>Pumpkin Seeds Data Analysis</h3>,
   ];
-  const projectSkills = [
-    <h4>Skills: Java, OOP, JSON, JUnit</h4>,
-    <h4>Skills: JavaScript, React, CSS, HTML</h4>,
-    <h4>
-      Voting System <br /> Skills: C++, OOP
-    </h4>,
-    <h4>Skills: Java, XML</h4>,
-    <h4>Skills: SQL, Python</h4>,
-    <h4>Skills: R, Data Analysis</h4>,
-  ];
+
   return (
     <div className="container">
-      <Router>
-        <Switch>
-          <Route path="/about" component={HikeGallery} />
-        </Switch>
-      </Router>
+      <Link to="/hikeGallery">Hike</Link>
       <Slider {...settings}>
         {carouselContentElems.map((contentElem, index) => (
           <div>
@@ -201,10 +181,14 @@ const ActivityItems = () => {
               </div>
               <div
                 className="carousel_card_description"
-                style={{ color: "var(--color-dark)" }}
+                style={{
+                  color: "var(--color-dark)",
+                  display: "flex",
+                  // flexDirection: "column",
+                  justifyContent: "center",
+                }}
               >
-                <h3>{projectNames[index]}</h3>
-                <h4>{projectSkills[index]}</h4>
+                <h3>{hobbyNames[index]}</h3>
               </div>
             </div>
           </div>

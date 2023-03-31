@@ -1,17 +1,15 @@
-import React from 'react'
-import ActivityItems from './ActivityItems'
-import './activities.css'
+import React from "react";
+import ActivityItems from "./ActivityItems";
+import "./activities.css";
 
 const Activities = () => {
   return (
-    <section id='activities'>
-        
-        <h2>Activities</h2>
+    <section id="activities">
+      <h2>Activities</h2>
 
-        <ActivityItems/>
-        
+      <ActivityItems />
     </section>
-  )
-}
+  );
+};
 
-export default Activities
+export default Activities;
