@@ -5,7 +5,7 @@ import "./activities.css";
 const Activities = () => {
   return (
     <section id="activities">
-      <h2>Activities</h2>
+      <h2>Outside of Work</h2>
 
       <ActivityItems />
     </section>

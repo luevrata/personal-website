@@ -1,12 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
 
-import taskSchedulerImg from "../../assets/taskScheduler.png";
-import personalWebsiteImg from "../../assets/personalWebsite.png";
-import votingSystemImg from "../../assets/votingSystem.png";
-import snakeGame from "../../assets/snakeGame.png";
-import collegeManagementImg from "../../assets/collegeManagement.png";
-import pumpkinSeedsImg from "../../assets/pumpkinSeeds.png";
+import DancingImg from "../../assets/activityIllustrations/dancing.png";
+import DrawingImg from "../../assets/activityIllustrations/drawing.png";
+import PhotoshopImg from "../../assets/activityIllustrations/photoshop.png";
+import HikingImg from "../../assets/activityIllustrations/hiking.png";
+import SnowImg from "../../assets/activityIllustrations/snow.png";
+import TechnoImg from "../../assets/activityIllustrations/techno.png";
 import { Link } from "react-router-dom";
 
 const ActivityItems = () => {
@@ -58,12 +58,12 @@ const ActivityItems = () => {
   };
 
   const projectImages = [
-    taskSchedulerImg,
-    personalWebsiteImg,
-    votingSystemImg,
-    snakeGame,
-    collegeManagementImg,
-    pumpkinSeedsImg,
+    HikingImg,
+    PhotoshopImg,
+    DrawingImg,
+    DancingImg,
+    SnowImg,
+    TechnoImg,
   ];
 
   const carouselContentElems = [

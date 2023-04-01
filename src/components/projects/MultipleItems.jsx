@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import taskSchedulerImg from "../../assets/taskScheduler.png";
 import personalWebsiteImg from "../../assets/personalWebsite.png";
 import votingSystemImg from "../../assets/votingSystem.png";
-import snakeGame from "../../assets/snakeGame.png";
+import snakeGameImg from "../../assets/snakeGame.png";
 import collegeManagementImg from "../../assets/collegeManagement.png";
 import pumpkinSeedsImg from "../../assets/pumpkinSeeds.png";
 
@@ -62,7 +62,7 @@ const MultipleItems = () => {
     taskSchedulerImg,
     personalWebsiteImg,
     votingSystemImg,
-    snakeGame,
+    snakeGameImg,
     collegeManagementImg,
     pumpkinSeedsImg,
   ];
