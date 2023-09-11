@@ -1,14 +1,29 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.07dbb590.css",
-    "main.js": "/personal-website/static/js/main.c7078048.js",
+    "main.css": "/personal-website/static/css/main.9563ec42.css",
+    "main.js": "/personal-website/static/js/main.63eb14ec.js",
     "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
-    "static/media/Elizaveta_Firsova_Resume.pdf": "/personal-website/static/media/Elizaveta_Firsova_Resume.16a96fca0ae8629d7c48.pdf",
+    "static/media/waterfall.jpg": "/personal-website/static/media/waterfall.a1bae316c49bad493f76.jpg",
+    "static/media/moraine3.jpg": "/personal-website/static/media/moraine3.e0d8d7731dd5557c69c7.jpg",
+    "static/media/Elizaveta_Firsova_Resume.pdf": "/personal-website/static/media/Elizaveta_Firsova_Resume.dccc9b6c4693481d9344.pdf",
+    "static/media/FOREST.jpg": "/personal-website/static/media/FOREST.b7c01f7bbac9dbe7bab5.jpg",
+    "static/media/kanyon.jpg": "/personal-website/static/media/kanyon.57f0b77b7685c687cc38.jpg",
+    "static/media/mounts.jpg": "/personal-website/static/media/mounts.1183a816c6fbc7314a44.jpg",
+    "static/media/lake.jpg": "/personal-website/static/media/lake.5b7adbe6ba738c861d21.jpg",
     "static/media/collegeManagement.png": "/personal-website/static/media/collegeManagement.ddfd71b7ee6fadd764c2.png",
+    "static/media/primorye.jpg": "/personal-website/static/media/primorye.ba9513fc1bf25b21011f.jpg",
+    "static/media/bears.jpg": "/personal-website/static/media/bears.cccc4e2ca3091ec9c67f.jpg",
+    "static/media/lionsBay.jpg": "/personal-website/static/media/lionsBay.07cae24e663d8cb3852f.jpg",
+    "static/media/photoshop.png": "/personal-website/static/media/photoshop.cfdda9b4ff0624915870.png",
     "static/media/personalWebsite.png": "/personal-website/static/media/personalWebsite.a6080828ece9220c9fc7.png",
     "static/media/votingSystem.png": "/personal-website/static/media/votingSystem.cacc130ee692d245946f.png",
+    "static/media/techno.png": "/personal-website/static/media/techno.c1d11a0970d2d62f6bea.png",
     "static/media/me_portfolio.jpg": "/personal-website/static/media/me_portfolio.8d2381d2bfd48263362c.jpg",
     "static/media/taskScheduler.png": "/personal-website/static/media/taskScheduler.8c017469a82fcf5985eb.png",
+    "static/media/snow.png": "/personal-website/static/media/snow.5bb67e7a5add351bdb4d.png",
+    "static/media/hiking.png": "/personal-website/static/media/hiking.b3959b1f3e8915f64011.png",
+    "static/media/drawing.png": "/personal-website/static/media/drawing.1e8af924efef0ac0de7b.png",
+    "static/media/dancing.png": "/personal-website/static/media/dancing.d3744e603cecc5f0d973.png",
     "static/media/pumpkinSeeds.png": "/personal-website/static/media/pumpkinSeeds.5961e08e163e1c554a44.png",
     "static/media/snakeGame.png": "/personal-website/static/media/snakeGame.e2285cd9d48f52b9f116.png",
     "static/media/Workday-Emblem.png": "/personal-website/static/media/Workday-Emblem.e37d74830ca62fc906c7.png",
@@ -18,12 +33,12 @@
     "static/media/slick.ttf": "/personal-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/personal-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/personal-website/index.html",
-    "main.07dbb590.css.map": "/personal-website/static/css/main.07dbb590.css.map",
-    "main.c7078048.js.map": "/personal-website/static/js/main.c7078048.js.map",
+    "main.9563ec42.css.map": "/personal-website/static/css/main.9563ec42.css.map",
+    "main.63eb14ec.js.map": "/personal-website/static/js/main.63eb14ec.js.map",
     "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07dbb590.css",
-    "static/js/main.c7078048.js"
+    "static/css/main.9563ec42.css",
+    "static/js/main.63eb14ec.js"
   ]
 }
