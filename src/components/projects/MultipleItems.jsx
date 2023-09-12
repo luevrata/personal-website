@@ -1,11 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
-import taskSchedulerImg from "../../assets/taskScheduler.png";
-import personalWebsiteImg from "../../assets/personalWebsite.png";
-import votingSystemImg from "../../assets/votingSystem.png";
-import snakeGameImg from "../../assets/snakeGame.png";
-import collegeManagementImg from "../../assets/collegeManagement.png";
-import pumpkinSeedsImg from "../../assets/pumpkinSeeds.png";
+import taskSchedulerImg from "../../assets/projectIllustrations/taskScheduler.png";
+import personalWebsiteImg from "../../assets/projectIllustrations/personalWebsite.png";
+import votingSystemImg from "../../assets/projectIllustrations/votingSystem.png";
+import snakeGameImg from "../../assets/projectIllustrations/snakeGame.png";
+import collegeManagementImg from "../../assets/projectIllustrations/collegeManagement.png";
+import pumpkinSeedsImg from "../../assets/projectIllustrations/pumpkinSeeds.png";
 
 import "./projects.css";
 import "../../styles/cardStyles.css";
@@ -67,14 +67,6 @@ const MultipleItems = () => {
     pumpkinSeedsImg,
   ];
 
-  const carouselContentElems = [
-    "card_content one",
-    "card_content six",
-    "card_content five",
-    "card_content two",
-    "card_content three",
-    "card_content four",
-  ];
   const linkRefs = [
     "https://github.com/luevrata/Task_Scheduler",
     "https://github.com/luevrata/personal-website",
@@ -165,11 +157,11 @@ const MultipleItems = () => {
   return (
     <div className="container">
       <Slider {...settings}>
-        {carouselContentElems.map((contentElem, index) => (
+        {projectNames.map((projectName, index) => (
           <div>
             <div className="carousel_card">
               <div
-                className={contentElem}
+                className="card_content"
                 style={{
                   backgroundImage: `url(${projectImages[index]})`,
                 }}
@@ -186,7 +178,7 @@ const MultipleItems = () => {
                 </div>
               </div>
               <div className="carousel_card_description">
-                <h3>{projectNames[index]}</h3>
+                <h3>{projectName}</h3>
                 <h4>{projectSkills[index]}</h4>
               </div>
             </div>
