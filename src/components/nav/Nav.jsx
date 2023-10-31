@@ -3,7 +3,7 @@ import "./nav.css";
 import { HiUserCircle, HiHome } from "react-icons/hi";
 import { MdHomeRepairService } from "react-icons/md";
 import { RiMessage2Fill } from "react-icons/ri";
-import { GiHeartInside } from "react-icons/gi";
+// import { GiHeartInside } from "react-icons/gi";
 import { FaBook } from "react-icons/fa";
 import { useState } from "react";
 
@@ -14,7 +14,7 @@ const Nav = () => {
     "#about",
     "#experience",
     "#projects",
-    "#activities",
+    // "#activities",
     "#contacts",
   ];
   const icons = [
@@ -22,7 +22,7 @@ const Nav = () => {
     <HiUserCircle />,
     <MdHomeRepairService />,
     <FaBook />,
-    <GiHeartInside />,
+    // <GiHeartInside />,
     <RiMessage2Fill />,
   ];
   return (
